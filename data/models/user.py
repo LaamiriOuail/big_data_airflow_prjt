@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 import os
 import sys
 from typing import Union
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), '.'))
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), 'data'))
 sys.path.append(parent_dir)
 from models import Base
 
@@ -18,7 +18,7 @@ class UserModel(Base):
 
     user_id = Column(String(37), primary_key=True, default=lambda: str(uuid.uuid4()))
     name = Column(String(255), nullable=False)
-    email = Column(String(255), nullable=False, unique=True)
+    email = Column(String(255), nullable=False)
     city = Column(String(255), nullable=True)
     birthdate = Column(DateTime, nullable=False)
 

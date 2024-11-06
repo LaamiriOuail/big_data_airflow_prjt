@@ -4,8 +4,10 @@ import random
 from datetime import datetime, timedelta
 import os
 import sys
+from sqlalchemy.exc import SQLAlchemyError
+import subprocess
 
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), '.'))
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), 'data'))
 sys.path.append(parent_dir)
 from models import init_db
 from models.product import ProductModel
@@ -122,43 +124,84 @@ def generate_transactions(users_df, products_df, num_transactions=30000):
 
 # Function to insert data into PostgreSQL
 def insert_data_into_postgresql(users_df, products_df, transactions_df):
-    # Insert Users Data
-    for _, row in users_df.iterrows():
-        user = UserModel(
-            user_id=row['user_id'],
-            name=row['name'],
-            email=row['email'],
-            city=row['city'],
-            birthdate=row['birthdate']
-        )
-        session.add(user)
+    try:
+        # Insert Users Data
+        for _, row in users_df.iterrows():
+            try:
+                user = UserModel(
+                    user_id=row['user_id'],
+                    name=row['name'],
+                    email=row['email'],
+                    city=row['city'],
+                    birthdate=row['birthdate']
+                )
+                session.add(user)
+            except SQLAlchemyError as e:
+                # Rollback if error occurs while inserting user
+                session.rollback()
+                print(f"Error inserting user {row['user_id']}")
+                continue  # Continue with the next user
 
-    # Insert Products Data
-    for _, row in products_df.iterrows():
-        product = ProductModel(
-            product_id=row['product_id'],
-            product_name=row['product_name'],
-            category=row['category'],
-            price=row['price']
-        )
-        session.add(product)
+        # Insert Products Data
+        for _, row in products_df.iterrows():
+            try:
+                product = ProductModel(
+                    product_id=row['product_id'],
+                    product_name=row['product_name'],
+                    category=row['category'],
+                    price=row['price']
+                )
+                session.add(product)
+            except SQLAlchemyError as e:
+                # Rollback if error occurs while inserting product
+                session.rollback()
+                print(f"Error inserting product {row['product_id']}")
+                continue  # Continue with the next product
 
-    # Insert Transactions Data
-    for _, row in transactions_df.iterrows():
-        transaction = TransactionModel(
-            transaction_id=row['transaction_id'],
-            user_id=row['user_id'],
-            product_id=row['product_id'],
-            amount=row['amount'],
-            transaction_date=row['transaction_date']
-        )
-        session.add(transaction)
+        # Insert Transactions Data
+        for _, row in transactions_df.iterrows():
+            try:
+                transaction = TransactionModel(
+                    transaction_id=row['transaction_id'],
+                    user_id=row['user_id'],
+                    product_id=row['product_id'],
+                    amount=row['amount'],
+                    transaction_date=row['transaction_date']
+                )
+                session.add(transaction)
+            except SQLAlchemyError as e:
+                # Rollback if error occurs while inserting transaction
+                session.rollback()
+                print(f"Error inserting transaction {row['transaction_id']}")
+                continue  # Continue with the next transaction
 
-    # Commit the transaction to the database
-    session.commit()
+        # Commit the transaction to the database
+        session.commit()
+
+    except Exception as e:
+        # Rollback the session for any general errors
+        session.rollback()
+        print(f"An unexpected error occurred")
+    else:
+        print("Data inserted successfully")
+    finally:
+        # Close the session to release the connection
+        session.close()
 
 
+# Convert the DataFrames into SQL INSERT statements and save them to a .sql file
+def save_to_sql(df, table_name, file_name):
+    with open(file_name, 'w') as f:
+        for index, row in df.iterrows():
+            insert_statement = f"INSERT INTO {table_name} ({', '.join(df.columns)}) VALUES ({', '.join([repr(val) for val in row])});\n"
+            f.write(insert_statement)
 
+def execute_sql_file(file_path):
+    try:
+        result = subprocess.run(['psql', '-U', 'airflow', '-d', 'olap-store', '-f', file_path], check=True, capture_output=True, text=True)
+        print(f"SQL file executed successfully: {result.stdout}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing SQL file: {e.stderr}")
 
 
 if __name__=="__main__":
@@ -192,8 +235,15 @@ if __name__=="__main__":
 
     # Put data in postgresql
 
-    insert_data_into_postgresql(users_df_c, products_df_a, transactions_df_d)
+    # insert_data_into_postgresql(users_df_c, products_df_a, transactions_df_d)
 
+    save_to_sql(users_df_c,"users","data/store/users.sql")
+    save_to_sql(products_df_a,"products","data/store/products.sql")
+    save_to_sql(transactions_df_d,"transactions","data/store/transactions.sql")
+
+    # execute_sql_file("data/store/users.sql")
+    # execute_sql_file("data/store/products.sql")
+    # execute_sql_file("data/store/transactions.sql")
 
 
 

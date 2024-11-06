@@ -17,10 +17,12 @@ Base = declarative_base()
 
 DATABASE_URL:str=App_Settings.database_url
 
+print(DATABASE_URL)
+
 def import_models():
     # Import all models
-    from models.product import ProductModel
     from models.user import UserModel
+    from models.product import ProductModel
     from models.transaction import TransactionModel
 
 def init_db():
@@ -31,6 +33,6 @@ def init_db():
     # Create a session
     Session = sessionmaker(bind=engine)
     session = Session()
-    # Base.metadata.drop_all(engine)
+    Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine, checkfirst=True)
     return session

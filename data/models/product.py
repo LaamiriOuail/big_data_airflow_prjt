@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 import os
 import sys
 from typing import Union
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), '.'))
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), 'data'))
 sys.path.append(parent_dir)
 from models import Base
 

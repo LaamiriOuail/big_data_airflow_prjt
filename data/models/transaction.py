@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 import os
 import sys
 from typing import Union
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), '.'))
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), 'data'))
 sys.path.append(parent_dir)
 from models import Base
 
@@ -20,7 +20,7 @@ class TransactionModel(Base):
     user_id = Column(String(37), ForeignKey('users.user_id'), nullable=False)
     product_id = Column(String(37), ForeignKey('products.product_id'), nullable=False)
     amount = Column(Float, nullable=False)
-    transaction_date = Column(DateTime, default=datetime.utcnow, nullable=False)
+    transaction_date = Column(DateTime, default=datetime.datetime.now(datetime.timezone.utc), nullable=False)
 
     # Define relationships
     user = relationship("UserModel", back_populates="transactions")
