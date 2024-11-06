@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 fake = Faker()
 
 # 1. Generate User Data
-def generate_users(num_users=8000):
+def generate_users(num_users=7000):
     users = []
     for _ in range(num_users):
         users.append({
@@ -20,7 +20,7 @@ def generate_users(num_users=8000):
     return pd.DataFrame(users)
 
 # 2. Generate Product Data
-def generate_products(num_products=10000):
+def generate_products(num_products=9000):
     categories = ["Electronics", "Clothing", "Home", "Sports", "Books"]
     products = []
     for _ in range(num_products):
@@ -33,7 +33,7 @@ def generate_products(num_products=10000):
     return pd.DataFrame(products)
 
 # 3. Generate Transaction Data
-def generate_transactions(users_df, products_df, num_transactions=50000):
+def generate_transactions(users_df, products_df, num_transactions=30000):
     transactions = []
     for _ in range(num_transactions):
         transaction_date = fake.date_time_between(start_date='-1y', end_date='now')
@@ -54,7 +54,10 @@ if __name__=="__main__":
 
     # Svae the data
 
-    users_df.to_csv("data/store/users.csv", index=False)
-    products_df.to_csv("data/store/products.csv", index=False)
-    transactions_df.to_csv("data/store/transactions.csv", index=False)
+    # users_df.to_csv("data/store/users.csv", index=False)
+    # products_df.to_csv("data/store/products.csv", index=False)
+    # transactions_df.to_csv("data/store/transactions.csv", index=False)
 
+    users_df.to_json("data/store/users.json", orient="records")
+    products_df.to_json("data/store/products.json", orient="records")
+    transactions_df.to_json("data/store/transactions.json", orient="records")
