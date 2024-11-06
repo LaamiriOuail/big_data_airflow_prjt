@@ -2,6 +2,17 @@ from faker import Faker
 import pandas as pd
 import random
 from datetime import datetime, timedelta
+import os
+import sys
+
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), '.'))
+sys.path.append(parent_dir)
+from models import init_db
+from models.product import ProductModel
+from models.user import UserModel
+from models.transaction import TransactionModel
+
+session = init_db() 
 
 # Initialize Faker
 fake = Faker()
@@ -106,29 +117,88 @@ def generate_transactions(users_df, products_df, num_transactions=30000):
         })
     return pd.DataFrame(transactions)
 
+
+
+
+# Function to insert data into PostgreSQL
+def insert_data_into_postgresql(users_df, products_df, transactions_df):
+    # Insert Users Data
+    for _, row in users_df.iterrows():
+        user = UserModel(
+            user_id=row['user_id'],
+            name=row['name'],
+            email=row['email'],
+            city=row['city'],
+            birthdate=row['birthdate']
+        )
+        session.add(user)
+
+    # Insert Products Data
+    for _, row in products_df.iterrows():
+        product = ProductModel(
+            product_id=row['product_id'],
+            product_name=row['product_name'],
+            category=row['category'],
+            price=row['price']
+        )
+        session.add(product)
+
+    # Insert Transactions Data
+    for _, row in transactions_df.iterrows():
+        transaction = TransactionModel(
+            transaction_id=row['transaction_id'],
+            user_id=row['user_id'],
+            product_id=row['product_id'],
+            amount=row['amount'],
+            transaction_date=row['transaction_date']
+        )
+        session.add(transaction)
+
+    # Commit the transaction to the database
+    session.commit()
+
+
+
+
+
 if __name__=="__main__":
     # Generate Data
-    users_df = generate_users()
-    products_df = generate_products()
-    transactions_df = generate_transactions(users_df, products_df)
+    users_df_a = generate_users()
+    products_df_a = generate_products()
+    transactions_df_a = generate_transactions(users_df_a, products_df_a)
 
     # Svae the data
 
-    users_df.to_csv("data/store/users.csv", index=False)
-    products_df.to_csv("data/store/products.csv", index=False)
-    transactions_df.to_csv("data/store/transactions.csv", index=False)
+    users_df_a.to_csv("data/store/users.csv", index=False)
+    products_df_a.to_csv("data/store/products.csv", index=False)
+    transactions_df_a.to_csv("data/store/transactions.csv", index=False)
 
-    products_df = generate_products()
-    transactions_df = generate_transactions(users_df, products_df)
+    products_df_b = generate_products()
+    transactions_df_b = generate_transactions(users_df_a, products_df_b)
 
-    users_df.to_json("data/store/users.json", orient="records")
-    products_df.to_json("data/store/products.json", orient="records")
-    transactions_df.to_json("data/store/transactions.json", orient="records")
+    users_df_a.to_json("data/store/users.json", orient="records")
+    products_df_b.to_json("data/store/products.json", orient="records")
+    transactions_df_b.to_json("data/store/transactions.json", orient="records")
 
-    users_df = generate_users()
-    transactions_df = generate_transactions(users_df, products_df)
+    users_df_c = generate_users()
+    transactions_df_c = generate_transactions(users_df_c, products_df_b)
 
-    users_df.to_excel("data/store/users.xlsx", index=False)
-    products_df.to_excel("data/store/products.xlsx", index=False)
-    transactions_df.to_excel("data/store/transactions.xlsx", index=False)
+    users_df_c.to_excel("data/store/users.xlsx", index=False)
+    products_df_b.to_excel("data/store/products.xlsx", index=False)
+    transactions_df_c.to_excel("data/store/transactions.xlsx", index=False)
+
+    # Generate Data
+    transactions_df_d = generate_transactions(users_df_c, products_df_a,num_transactions=50000)
+
+    # Put data in postgresql
+
+    insert_data_into_postgresql(users_df_c, products_df_a, transactions_df_d)
+
+
+
+
+
+
+
+
 
