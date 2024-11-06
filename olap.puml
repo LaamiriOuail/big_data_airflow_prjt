@@ -1,0 +1,37 @@
+@startuml
+' OLAP Schema (More Complex Relationships)
+
+entity "FactTransactions" as FactTransactions {
+  +Transaction_ID: string
+  +User_ID: string
+  +Product_ID: string
+  +Amount: float
+  +Transaction_Date: date
+}
+
+entity "Users" as Users {
+  +User_ID: string
+  +Name: string
+  +Email: string
+  +City: string
+  +Birthdate: date
+}
+
+entity "Products" as Products {
+  +Product_ID: string
+  +Product_Name: string
+  +Category: string
+  +Price: float
+}
+
+entity "Time" as Time {
+  +Time_ID: string
+  +Year: int
+  +Month: int
+  +Day: int
+}
+
+FactTransactions -- Users : "Made By"
+FactTransactions -- Products : "Contains"
+FactTransactions -- Time : "Occurs On"
+@enduml

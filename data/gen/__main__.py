@@ -67,22 +67,23 @@ def generate_users(num_users=7000):
         })
     return pd.DataFrame(users)
 
-# 2. Generate Product Data
+# Enhance the product name generator
 def generate_products(num_products=9000):
     categories = ["Electronics", "Clothing", "Home", "Sports", "Books"]
-    descriptors = ["Smart", "Portable", "Advanced", "Premium", "Eco-Friendly", "Pro", "Ultimate"]
+    descriptors = ["Authentic", "Luxury", "Traditional", "Modern", "Premium", "Eco-Friendly", "Pro", "Ultimate", "Chic", "Elegant"]
     types = {
-        "Electronics": ["Phone", "Laptop", "Headphones", "Camera", "Smartwatch"],
-        "Clothing": ["T-Shirt", "Jeans", "Jacket", "Sneakers", "Dress"],
-        "Home": ["Blender", "Vacuum Cleaner", "Microwave", "Coffee Maker", "Sofa"],
-        "Sports": ["Tennis Racket", "Basketball", "Yoga Mat", "Running Shoes", "Dumbbells"],
-        "Books": ["Mystery Novel", "Science Fiction Book", "Cookbook", "Self-Help Guide", "Biography"]
+        "Electronics": ["Phone", "Laptop", "Headphones", "Camera", "Smartwatch", "Tablet", "Speaker"],
+        "Clothing": ["T-Shirt", "Jeans", "Jacket", "Sneakers", "Dress", "Scarf", "Belt"],
+        "Home": ["Blender", "Vacuum Cleaner", "Microwave", "Coffee Maker", "Sofa", "Chair", "Table"],
+        "Sports": ["Tennis Racket", "Basketball", "Yoga Mat", "Running Shoes", "Dumbbells", "Football", "Badminton Racket"],
+        "Books": ["Mystery Novel", "Science Fiction Book", "Cookbook", "Self-Help Guide", "Biography", "Moroccan History", "Travel Guide"]
     }
+    local_influences = ["Oasis", "Atlas", "Kasbah", "Marrakech", "Fez", "Casablanca", "Rabat"]
     
     products = []
     for _ in range(num_products):
         category = random.choice(categories)
-        product_name = f"{random.choice(descriptors)} {random.choice(types[category])}"
+        product_name = f"{random.choice(descriptors)} {random.choice(types[category])} {random.choice(local_influences)}"
         products.append({
             "product_id": fake.uuid4(),
             "product_name": product_name,

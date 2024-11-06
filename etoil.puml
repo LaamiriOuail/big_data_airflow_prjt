@@ -1,0 +1,29 @@
+@startuml
+' Star Schema (Simplified with Denormalized Dimensions)
+
+entity "FactTransactions" as FactTransactions {
+  +Transaction_ID: string
+  +User_ID: string
+  +Product_ID: string
+  +Amount: float
+  +Transaction_Date: date
+}
+
+entity "Users" as Users {
+  +User_ID: string
+  +Name: string
+  +Email: string
+  +City: string
+  +Birthdate: date
+}
+
+entity "Products" as Products {
+  +Product_ID: string
+  +Product_Name: string
+  +Category: string
+  +Price: float
+}
+
+FactTransactions -- Users : "Made By"
+FactTransactions -- Products : "Contains"
+@enduml
