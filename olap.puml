@@ -1,37 +1,37 @@
 @startuml
-' OLAP Schema (More Complex Relationships)
-
-entity "FactTransactions" as FactTransactions {
-  +Transaction_ID: string
-  +User_ID: string
-  +Product_ID: string
-  +Amount: float
-  +Transaction_Date: date
+entity "Transactions" as Transactions {
+    * transaction_id : UUID
+    * user_id : UUID
+    * product_id : UUID
+    * date_id : Date
+    * amount : Decimal
 }
 
 entity "Users" as Users {
-  +User_ID: string
-  +Name: string
-  +Email: string
-  +City: string
-  +Birthdate: date
+    * user_id : UUID
+    * name : String
+    * email : String
+    * city : String
+    * birthdate : Date
 }
 
 entity "Products" as Products {
-  +Product_ID: string
-  +Product_Name: string
-  +Category: string
-  +Price: float
+    * product_id : UUID
+    * product_name : String
+    * category : String
+    * price : Decimal
 }
 
-entity "Time" as Time {
-  +Time_ID: string
-  +Year: int
-  +Month: int
-  +Day: int
+entity "Date" as Date {
+    * date_id : Date
+    * year : Integer
+    * month : Integer
+    * day : Integer
+    * weekday : String
 }
 
-FactTransactions -- Users : "Made By"
-FactTransactions -- Products : "Contains"
-FactTransactions -- Time : "Occurs On"
+Transactions }|--o{ Users : "user_id"
+Transactions }|--o{ Products : "product_id"
+Transactions }|--o{ Date : "date_id"
+
 @enduml

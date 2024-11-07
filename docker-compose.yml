@@ -1,17 +1,57 @@
-version: '3.7'
+version: '3.8'
+
 services:
-  couchbase:
+  couchbase-master:
     image: couchbase:latest
-    container_name: couchbase-server-1
+    container_name: couchbase-master
     ports:
-      - 8091-8094:8091-8094
-      - 11210:11210
+      - "8091:8091"   # Web console
+      - "8092:8092"   # Views
+      - "8093:8093"   # Query (N1QL)
+      - "8094:8094"   # Full Text Search
+      - "8095:8095"   # Analytics
+      - "11210:11210" # Data access
     environment:
-      - COUCHBASE_ADMINISTRATOR_USERNAME=Administrator
-      - COUCHBASE_ADMINISTRATOR_PASSWORD=password
-    mem_limit: 3g # Set the container memory limit to 3 GB
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8091/ || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
+      COUCHBASE_ADMINISTRATOR_USERNAME: "Administrator"
+      COUCHBASE_ADMINISTRATOR_PASSWORD: "Administrator"
+    volumes:
+      - couchbase_master_data:/opt/couchbase/var
+
+  couchbase-slave1:
+    image: couchbase:latest
+    container_name: couchbase-slave1
+    environment:
+      COUCHBASE_ADMINISTRATOR_USERNAME: "Administrator"
+      COUCHBASE_ADMINISTRATOR_PASSWORD: "Administrator"
+    depends_on:
+      - couchbase-master
+    volumes:
+      - couchbase_slave1_data:/opt/couchbase/var
+
+  couchbase-slave2:
+    image: couchbase:latest
+    container_name: couchbase-slave2
+    environment:
+      COUCHBASE_ADMINISTRATOR_USERNAME: "Administrator"
+      COUCHBASE_ADMINISTRATOR_PASSWORD: "Administrator"
+    depends_on:
+      - couchbase-master
+    volumes:
+      - couchbase_slave2_data:/opt/couchbase/var
+
+  couchbase-slave3:
+    image: couchbase:latest
+    container_name: couchbase-slave3
+    environment:
+      COUCHBASE_ADMINISTRATOR_USERNAME: "Administrator"
+      COUCHBASE_ADMINISTRATOR_PASSWORD: "Administrator"
+    depends_on:
+      - couchbase-master
+    volumes:
+      - couchbase_slave3_data:/opt/couchbase/var
+
+volumes:
+  couchbase_master_data:
+  couchbase_slave1_data:
+  couchbase_slave2_data:
+  couchbase_slave3_data:

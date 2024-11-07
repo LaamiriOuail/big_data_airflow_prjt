@@ -1,29 +1,40 @@
 @startuml
-' Star Schema (Simplified with Denormalized Dimensions)
-
-entity "FactTransactions" as FactTransactions {
-  +Transaction_ID: string
-  +User_ID: string
-  +Product_ID: string
-  +Amount: float
-  +Transaction_Date: date
+entity "Fact_Transactions" as Fact_Transactions {
+    * transaction_id : UUID
+    * user_id : UUID
+    * product_id : UUID
+    * date_id : Date
+    * amount : Decimal
 }
 
-entity "Users" as Users {
-  +User_ID: string
-  +Name: string
-  +Email: string
-  +City: string
-  +Birthdate: date
+entity "Dim_User" as Dim_User {
+    * user_id : UUID
+    * first_name : String
+    * last_name : String
+    * email : String
+    * city : String
+    * birthdate : Date
+    * age : Integer
 }
 
-entity "Products" as Products {
-  +Product_ID: string
-  +Product_Name: string
-  +Category: string
-  +Price: float
+entity "Dim_Product" as Dim_Product {
+    * product_id : UUID
+    * product_name : String
+    * category : String
+    * price : Decimal
 }
 
-FactTransactions -- Users : "Made By"
-FactTransactions -- Products : "Contains"
+entity "Dim_Date" as Dim_Date {
+    * date_id : Date
+    * year : Integer
+    * quarter : String
+    * month : Integer
+    * day : Integer
+    * weekday : String
+}
+
+Fact_Transactions }|--o{ Dim_User : "user_id"
+Fact_Transactions }|--o{ Dim_Product : "product_id"
+Fact_Transactions }|--o{ Dim_Date : "date_id"
+
 @enduml

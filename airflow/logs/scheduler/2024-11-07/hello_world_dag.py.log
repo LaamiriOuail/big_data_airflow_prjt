@@ -132,3 +132,157 @@
 [2024-11-07T09:22:10.317-1100] {logging_mixin.py:190} INFO - [2024-11-07T09:22:10.316-1100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-07T09:22:10.336-1100] {logging_mixin.py:190} INFO - [2024-11-07T09:22:10.336-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
 [2024-11-07T09:22:10.358-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.077 seconds
+[2024-11-07T10:49:18.295-1100] {processor.py:186} INFO - Started process (PID=335728) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:49:18.299-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:49:18.303-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:18.303-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:49:18.324-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:49:18.348-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:18.348-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:49:18.627-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:18.626-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:49:18.661-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.378 seconds
+[2024-11-07T10:50:33.952-1100] {processor.py:186} INFO - Started process (PID=336015) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:50:33.956-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:50:33.959-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:33.959-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:50:33.974-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:50:33.999-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:33.998-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:50:34.031-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:34.031-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:50:34.061-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.118 seconds
+[2024-11-07T10:51:14.545-1100] {processor.py:186} INFO - Started process (PID=336085) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:14.550-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:51:14.554-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:14.554-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:14.572-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:14.600-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:14.599-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:51:14.639-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:14.639-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:51:14.680-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.151 seconds
+[2024-11-07T10:51:51.875-1100] {processor.py:186} INFO - Started process (PID=336275) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:51.879-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:51:51.885-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:51.883-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:51.906-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:51:51.932-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:51.931-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:51:51.965-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:51.965-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:51:51.996-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.134 seconds
+[2024-11-07T10:52:31.674-1100] {processor.py:186} INFO - Started process (PID=336338) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:52:31.678-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:52:31.684-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:31.683-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:52:31.706-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:52:31.731-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:31.731-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:52:31.768-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:31.767-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:52:31.800-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.143 seconds
+[2024-11-07T10:53:12.536-1100] {processor.py:186} INFO - Started process (PID=336420) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:12.540-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:53:12.546-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:12.545-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:12.567-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:12.591-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:12.591-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:53:12.625-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:12.624-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:53:12.655-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.132 seconds
+[2024-11-07T10:53:51.903-1100] {processor.py:186} INFO - Started process (PID=336492) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:51.907-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:53:51.911-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:51.911-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:51.931-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:53:51.955-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:51.954-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:53:51.987-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:51.987-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:53:52.020-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.129 seconds
+[2024-11-07T10:54:28.717-1100] {processor.py:186} INFO - Started process (PID=336797) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:54:28.719-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:54:28.723-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:28.723-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:54:28.743-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:54:28.767-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:28.766-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:54:28.799-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:28.798-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:54:28.827-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.123 seconds
+[2024-11-07T10:55:05.365-1100] {processor.py:186} INFO - Started process (PID=336855) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:05.370-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:55:05.376-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:05.375-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:05.402-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:05.432-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:05.431-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:55:05.469-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:05.469-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:55:05.505-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.155 seconds
+[2024-11-07T10:55:43.216-1100] {processor.py:186} INFO - Started process (PID=337269) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:43.220-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T10:55:43.225-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:43.224-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:43.246-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T10:55:43.279-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:43.278-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:55:43.327-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:43.326-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:55:43.365-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.159 seconds
+[2024-11-07T12:14:51.360-1100] {processor.py:186} INFO - Started process (PID=351008) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:14:51.364-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:14:51.368-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:51.368-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:14:51.399-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:14:51.977-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:51.976-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:14:52.021-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:52.020-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:14:52.063-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.714 seconds
+[2024-11-07T12:16:05.151-1100] {processor.py:186} INFO - Started process (PID=351481) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:05.154-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:16:05.159-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:05.158-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:05.180-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:05.213-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:05.213-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:16:05.259-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:05.259-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:16:05.310-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.170 seconds
+[2024-11-07T12:16:44.150-1100] {processor.py:186} INFO - Started process (PID=351553) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:44.152-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:16:44.156-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:44.155-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:44.171-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:16:44.194-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:44.194-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:16:44.226-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:44.226-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:16:44.259-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.118 seconds
+[2024-11-07T12:17:22.957-1100] {processor.py:186} INFO - Started process (PID=351634) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:17:22.961-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:17:22.966-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:22.965-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:17:22.985-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:17:23.015-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:23.015-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:17:23.059-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:23.059-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:17:23.091-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.145 seconds
+[2024-11-07T12:18:02.828-1100] {processor.py:186} INFO - Started process (PID=351707) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:02.833-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:18:02.838-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:02.837-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:02.862-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:02.889-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:02.889-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:18:02.928-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:02.928-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:18:02.961-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.145 seconds
+[2024-11-07T12:18:38.909-1100] {processor.py:186} INFO - Started process (PID=351769) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:38.910-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:18:38.914-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:38.914-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:38.932-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:18:38.957-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:38.957-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:18:38.994-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:38.994-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:18:39.029-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.131 seconds
+[2024-11-07T12:19:15.775-1100] {processor.py:186} INFO - Started process (PID=351957) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:15.779-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:19:15.784-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:15.783-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:15.800-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:15.823-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:15.823-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:19:15.855-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:15.854-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:19:15.884-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.124 seconds
+[2024-11-07T12:19:54.051-1100] {processor.py:186} INFO - Started process (PID=352064) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:54.056-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:19:54.063-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:54.062-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:54.089-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:19:54.122-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:54.122-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:19:54.166-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:54.166-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:19:54.207-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.173 seconds
+[2024-11-07T12:20:32.579-1100] {processor.py:186} INFO - Started process (PID=352131) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:20:32.583-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:20:32.588-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:32.587-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:20:32.608-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:20:32.639-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:32.639-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:20:32.682-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:32.681-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:20:32.725-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.156 seconds
+[2024-11-07T12:21:09.580-1100] {processor.py:186} INFO - Started process (PID=352195) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:09.584-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:21:09.590-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:09.589-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:09.616-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:09.648-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:09.648-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:21:09.694-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:09.693-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:21:09.738-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.173 seconds
+[2024-11-07T12:21:50.735-1100] {processor.py:186} INFO - Started process (PID=352254) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:50.740-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:21:50.744-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:50.744-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:50.763-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:21:50.793-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:50.793-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:21:50.834-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:50.834-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:21:50.869-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.145 seconds
+[2024-11-07T12:22:34.707-1100] {processor.py:186} INFO - Started process (PID=352320) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:22:34.711-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-07T12:22:34.716-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:34.715-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:22:34.736-1100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py
+[2024-11-07T12:22:34.762-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:34.761-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:22:34.798-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:34.798-1100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:22:34.834-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/hello_world_dag.py took 0.137 seconds

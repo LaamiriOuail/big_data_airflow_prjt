@@ -1505,3 +1505,164 @@
 [2024-11-07T09:22:10.142-1100] {logging_mixin.py:190} INFO - [2024-11-07T09:22:10.142-1100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-07T09:22:10.166-1100] {logging_mixin.py:190} INFO - [2024-11-07T09:22:10.166-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
 [2024-11-07T09:22:10.193-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.095 seconds
+[2024-11-07T10:49:16.712-1100] {processor.py:186} INFO - Started process (PID=335720) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:49:16.714-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:49:16.720-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:16.719-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:49:16.745-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:49:16.772-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:16.772-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:49:17.085-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:49:17.085-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:49:17.116-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.418 seconds
+[2024-11-07T10:50:33.644-1100] {processor.py:186} INFO - Started process (PID=336014) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:50:33.646-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:50:33.651-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:33.650-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:50:33.674-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:50:33.699-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:33.699-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:50:33.732-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:50:33.732-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:50:33.764-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.132 seconds
+[2024-11-07T10:51:13.258-1100] {processor.py:186} INFO - Started process (PID=336083) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:13.262-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:51:13.267-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:13.266-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:13.285-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:13.313-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:13.312-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:51:13.352-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:13.351-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:51:13.400-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.150 seconds
+[2024-11-07T10:51:50.597-1100] {processor.py:186} INFO - Started process (PID=336270) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:50.601-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:51:50.606-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:50.605-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:50.631-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:51:50.656-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:50.656-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:51:50.688-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:51:50.688-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:51:50.719-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.135 seconds
+[2024-11-07T10:52:30.354-1100] {processor.py:186} INFO - Started process (PID=336337) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:52:30.358-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:52:30.363-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:30.362-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:52:30.386-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:52:30.421-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:30.420-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:52:30.467-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:52:30.466-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:52:30.511-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.168 seconds
+[2024-11-07T10:53:11.256-1100] {processor.py:186} INFO - Started process (PID=336418) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:11.260-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:53:11.265-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:11.264-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:11.288-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:11.315-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:11.315-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:53:11.351-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:11.351-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:53:11.381-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.137 seconds
+[2024-11-07T10:53:50.617-1100] {processor.py:186} INFO - Started process (PID=336491) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:50.622-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:53:50.628-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:50.627-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:50.656-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:53:50.685-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:50.685-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:53:50.731-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:53:50.730-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:53:50.769-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.167 seconds
+[2024-11-07T10:54:27.441-1100] {processor.py:186} INFO - Started process (PID=336795) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:54:27.445-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:54:27.450-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:27.449-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:54:27.473-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:54:27.498-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:27.498-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:54:27.530-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:54:27.530-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:54:27.558-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.130 seconds
+[2024-11-07T10:55:04.061-1100] {processor.py:186} INFO - Started process (PID=336851) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:04.065-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:55:04.070-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:04.069-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:04.093-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:04.118-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:04.118-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:55:04.150-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:04.150-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:55:04.180-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.131 seconds
+[2024-11-07T10:55:41.894-1100] {processor.py:186} INFO - Started process (PID=337267) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:41.895-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T10:55:41.899-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:41.899-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:41.921-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T10:55:41.951-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:41.950-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:55:41.993-1100] {logging_mixin.py:190} INFO - [2024-11-07T10:55:41.992-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T10:55:42.034-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.150 seconds
+[2024-11-07T12:14:47.691-1100] {processor.py:186} INFO - Started process (PID=350969) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:14:47.693-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:14:47.697-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:47.696-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:14:47.724-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:14:48.230-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:48.229-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:14:48.283-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:14:48.282-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:14:48.344-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.663 seconds
+[2024-11-07T12:16:03.336-1100] {processor.py:186} INFO - Started process (PID=351469) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:03.341-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:16:03.346-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:03.345-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:03.371-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:03.397-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:03.397-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:16:03.432-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:03.431-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:16:03.465-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.144 seconds
+[2024-11-07T12:16:41.742-1100] {processor.py:186} INFO - Started process (PID=351549) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:41.745-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:16:41.750-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:41.749-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:41.773-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:16:41.808-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:41.807-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:16:41.852-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:16:41.852-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:16:41.892-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.162 seconds
+[2024-11-07T12:17:21.263-1100] {processor.py:186} INFO - Started process (PID=351632) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:17:21.265-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:17:21.269-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:21.269-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:17:21.292-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:17:21.317-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:21.317-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:17:21.348-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:17:21.348-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:17:21.378-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.127 seconds
+[2024-11-07T12:18:00.623-1100] {processor.py:186} INFO - Started process (PID=351704) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:00.627-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:18:00.632-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:00.631-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:00.656-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:00.683-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:00.683-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:18:00.717-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:00.717-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:18:00.753-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.144 seconds
+[2024-11-07T12:18:36.434-1100] {processor.py:186} INFO - Started process (PID=351763) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:36.437-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:18:36.442-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:36.442-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:36.465-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:18:36.491-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:36.490-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:18:36.522-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:18:36.521-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:18:36.550-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.129 seconds
+[2024-11-07T12:19:13.068-1100] {processor.py:186} INFO - Started process (PID=351954) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:13.072-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:19:13.077-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:13.076-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:13.103-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:13.134-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:13.134-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:19:13.172-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:13.172-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:19:13.206-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.150 seconds
+[2024-11-07T12:19:51.959-1100] {processor.py:186} INFO - Started process (PID=352061) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:51.963-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:19:51.968-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:51.967-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:51.993-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:19:52.024-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:52.023-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:19:52.061-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:19:52.060-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:19:52.090-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.144 seconds
+[2024-11-07T12:20:29.900-1100] {processor.py:186} INFO - Started process (PID=352127) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:20:29.904-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:20:29.910-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:29.909-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:20:29.934-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:20:29.967-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:29.966-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:20:30.014-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:20:30.014-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:20:30.062-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.174 seconds
+[2024-11-07T12:21:07.513-1100] {processor.py:186} INFO - Started process (PID=352190) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:07.518-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:21:07.523-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:07.522-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:07.547-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:07.581-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:07.580-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:21:07.620-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:07.619-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:21:07.662-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.163 seconds
+[2024-11-07T12:21:48.251-1100] {processor.py:186} INFO - Started process (PID=352251) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:48.255-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:21:48.260-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:48.259-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:48.284-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:21:48.311-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:48.310-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:21:48.344-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:21:48.344-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:21:48.374-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.136 seconds
+[2024-11-07T12:22:32.013-1100] {processor.py:186} INFO - Started process (PID=352317) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:22:32.015-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:22:32.020-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:32.019-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:22:32.047-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:22:32.078-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:32.077-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:22:32.125-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:22:32.124-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:22:32.171-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.171 seconds
+[2024-11-07T12:23:11.923-1100] {processor.py:186} INFO - Started process (PID=352388) to work on /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:23:11.925-1100] {processor.py:914} INFO - Processing file /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-07T12:23:11.930-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:23:11.930-1100] {dagbag.py:588} INFO - Filling up the DagBag from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:23:11.953-1100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py
+[2024-11-07T12:23:11.977-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:23:11.977-1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:23:12.009-1100] {logging_mixin.py:190} INFO - [2024-11-07T12:23:12.008-1100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-07 00:00:00+00:00, run_after=2024-11-08 00:00:00+00:00
+[2024-11-07T12:23:12.042-1100] {processor.py:208} INFO - Processing /home/ouaillaamiri/Development/lsi_3/airflow/airflow/dags/extract_transform_clean_data.py took 0.134 seconds
