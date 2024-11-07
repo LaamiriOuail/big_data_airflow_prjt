@@ -11,6 +11,6 @@ SQLAlchemy>=1.4.36,<2.0
 psycopg2==2.9.10 
 alembic==1.13.3
 
-couchbase==4.3.3
+pymongo==4.10.1
 
 

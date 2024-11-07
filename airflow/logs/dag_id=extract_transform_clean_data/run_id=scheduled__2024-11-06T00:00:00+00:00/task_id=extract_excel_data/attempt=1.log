@@ -1,0 +1,65 @@
+[2024-11-07T08:58:55.807-1100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T08:58:55.827-1100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_transform_clean_data.extract_excel_data scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T08:58:55.838-1100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_transform_clean_data.extract_excel_data scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T08:58:55.839-1100] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-07T08:58:55.861-1100] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_excel_data> on 2024-11-06 00:00:00+00:00
+[2024-11-07T08:58:55.878-1100] {standard_task_runner.py:72} INFO - Started process 317750 to run task
+[2024-11-07T08:58:55.884-1100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'extract_transform_clean_data', 'extract_excel_data', 'scheduled__2024-11-06T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/extract_transform_clean_data.py', '--cfg-path', '/tmp/tmpxzzea56x']
+[2024-11-07T08:58:55.886-1100] {standard_task_runner.py:105} INFO - Job 11: Subtask extract_excel_data
+[2024-11-07T08:58:55.946-1100] {task_command.py:467} INFO - Running <TaskInstance: extract_transform_clean_data.extract_excel_data scheduled__2024-11-06T00:00:00+00:00 [running]> on host debian
+[2024-11-07T08:58:56.032-1100] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_transform_clean_data' AIRFLOW_CTX_TASK_ID='extract_excel_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-06T00:00:00+00:00'
+[2024-11-07T08:58:56.034-1100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-07T08:58:56.035-1100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-07T08:58:56.035-1100] {logging_mixin.py:190} INFO - Current task name:extract_excel_data state:running start_date:2024-11-07 19:58:55.828388+00:00
+[2024-11-07T08:58:56.035-1100] {logging_mixin.py:190} INFO - Dag name:extract_transform_clean_data and current dag run status:running
+[2024-11-07T08:58:56.036-1100] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T08:59:03.444-1100] {logging_mixin.py:190} INFO - Excel Data Extracted
+[2024-11-07T08:59:03.445-1100] {python.py:240} INFO - Done. Returned value was: (                                   user_id              name  ...         city  birthdate
+0     fe3cf064-6121-456a-a4db-a6ffccf7cc76     El Mehdi Sbai  ...   Mohammedia 1980-03-17
+1     5a93500d-f38b-4c99-bc49-6fbb59bb27b1     Mouad Berkani  ...   Casablanca 2006-06-18
+2     d9dd9953-ff31-4fa8-9630-6e057590dec5      Rajae Essafi  ...   Al Hoceima 1983-12-06
+3     f6ed54ba-92ab-403d-ae5b-5421a65dd091      Amal Bouazza  ...  Chefchaouen 1949-02-20
+4     6ba514cd-dd91-4d96-97f0-95b9955b1ace  Mustapha Bouazza  ...      Tangier 1951-01-02
+...                                    ...               ...  ...          ...        ...
+6995  ea234b29-560d-4519-9a0e-4e6c2d1bf1e1    Brahim Jaafari  ...      Kenitra 1985-08-20
+6996  0324c469-f1ad-498f-bb81-2c98300e5177    Samir Bourkadi  ...       Settat 1980-07-20
+6997  a09228b1-ea66-4b49-a45e-18023d1ee835     Hamza Ghallab  ...   Errachidia 1974-07-04
+6998  571c41db-b46d-495e-a6a3-f2bdf91586e8       Hakim Faris  ...         Salé 1959-02-08
+6999  00bb121d-6c20-4b20-9588-48cdfcdbf72f    Najwa Maazouzi  ...     Laayoune 1945-02-15
+
+[7000 rows x 5 columns],                                 product_id                             product_name     category    price
+0     64f529b0-9482-4c4d-9872-4bd22e676b1a                  Traditional Scarf Atlas     Clothing  1099.44
+1     a42460b2-f09d-48dd-a995-0f77d84a4283                        Modern Jacket Fez     Clothing  4974.19
+2     bea846ed-0041-468f-8f05-4a4bf69b4235        Eco-Friendly Badminton Racket Fez       Sports  1812.72
+3     77ffaced-179e-4127-825f-096ef8d022c9              Pro Tennis Racket Marrakech       Sports   330.08
+4     5d000de3-3243-44ae-9d9b-75b1f4d8c86e                          Pro Table Atlas         Home  2666.32
+...                                    ...                                      ...          ...      ...
+8995  2f9cfd61-99d5-4c72-9720-ea3933009f70               Ultimate Tablet Casablanca  Electronics  2551.39
+8996  e3e27808-7cf6-4512-b8f8-2736bee4f492                      Luxury Jacket Rabat     Clothing  3537.71
+8997  a256b832-e722-4cd8-aef6-3b07e9374efd                        Pro Speaker Oasis  Electronics  1469.49
+8998  2889582d-ec7d-49f8-b4b5-8bd2bb163329  Premium Science Fiction Book Casablanca        Books  2270.12
+8999  f7b633e7-a1e2-4877-82fa-eac506413390                 Eco-Friendly Jeans Atlas     Clothing   737.43
+
+[9000 rows x 4 columns],                              transaction_id  ...        transaction_date
+0      2ef7047f-e761-4250-8004-ce690560a33a  ... 2024-01-07 20:03:42.784
+1      5750db36-929c-430b-a9f8-8bfad992cb2f  ... 2023-12-23 21:37:38.892
+2      2b29d96f-60bd-4262-935f-e2fa35e42320  ... 2024-06-24 05:40:08.224
+3      933245f3-1ac7-4d01-ab78-ba5d5cd26672  ... 2024-07-29 13:00:43.476
+4      970371e0-ba17-431d-8c06-d9f1aa21db2a  ... 2023-11-08 15:21:35.989
+...                                     ...  ...                     ...
+29995  9729b2cd-5c9c-4602-b77d-e9c5b87332e9  ... 2023-11-20 02:32:18.816
+29996  0f5f3ecc-c939-45a8-8dfb-cc8691278f1a  ... 2024-10-17 15:32:25.615
+29997  726d2a28-d210-4160-9953-3d3c3a68d862  ... 2024-05-31 00:27:50.173
+29998  6a933fb6-3e9d-4e47-9053-7d4bc63c6262  ... 2024-06-20 09:05:25.927
+29999  8c0116e7-07bd-4ae3-8610-64d57bea330f  ... 2024-08-09 03:54:47.524
+
+[30000 rows x 5 columns])
+[2024-11-07T08:59:03.720-1100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T08:59:03.721-1100] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_transform_clean_data, task_id=extract_excel_data, run_id=scheduled__2024-11-06T00:00:00+00:00, execution_date=20241106T000000, start_date=20241107T195855, end_date=20241107T195903
+[2024-11-07T08:59:03.735-1100] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-07T08:59:03.736-1100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-07T08:59:03.736-1100] {logging_mixin.py:190} INFO - Dag name:extract_transform_clean_data queued_at:2024-11-07 19:58:08.919572+00:00
+[2024-11-07T08:59:03.736-1100] {logging_mixin.py:190} INFO - Task hostname:debian operator:PythonOperator
+[2024-11-07T08:59:03.787-1100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T08:59:03.817-1100] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T08:59:03.822-1100] {local_task_job_runner.py:245} INFO - ::endgroup::
