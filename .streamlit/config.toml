@@ -1,0 +1,11 @@
+[theme]
+# Set the primary color for the theme
+primaryColor = "#774BFF"
+# Set the background color of the app
+backgroundColor = "#000000"
+# Set the text color
+textColor = "#FAFAFA"
+# Set the secondary background color (e.g., for sidebars or other elements)
+secondaryBackgroundColor = "#0820EA"
+# Set the font family to Monospace
+font = "monospace"
