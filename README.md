@@ -55,6 +55,24 @@ $ docker cp ./data/config/init.sql postgres-olap-store:/init.sql
 $ docker exec -it postgres-olap-store psql -U airflow -d olap-store -f /init.sql
 ```
 
+## Restore the Database from Backup to the MongoDB Docker Container
+
+1. Copy the backup files from your host into the container:
+
+    ```bash
+    docker cp backup/olap-store <mongo_container_name>:/restore
+    ```
+
+2. Run `mongorestore` inside the container, specifying the database to restore:
+
+    ```bash
+    docker exec <mongo_container_name> mongorestore --db olap-store /restore/olap-store
+    ```
+
+    - `--db olap-store` specifies the target database name for restoration.
+    - `/restore/olap-store` points to the backup folder inside the container.
+
+After running these commands, the `olap-store` database should be restored in your MongoDB container.
 
 
 
