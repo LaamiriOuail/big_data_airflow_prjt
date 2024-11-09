@@ -89,3 +89,19 @@ def update_graphs(selected_years, selected_categories):
     fig_location.update_traces(marker_color='seagreen')
 
     return fig_year, fig_category, fig_location
+
+
+
+
+# --------------- 
+
+
+
+## Top 10 products saled - no base
+## Less 10 Saled Products - no base
+## Top 1 by mounth 2023/2024  11-2023 .... 11-2024
+## Less 1 by mounth 2023/2024  11-2023 .... 11-2024
+
+## 2023/2024 - The top category product
+## 2023/2024 - The less category product
+
