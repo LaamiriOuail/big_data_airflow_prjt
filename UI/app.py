@@ -15,7 +15,6 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG], use_pages=Tr
 # Register pages
 import pages.home  # This will register the home page automatically if you structure it correctly
 import pages.products
-import pages.users
 import pages.transactions
 
 # Define the main layout with navigation and content
@@ -28,7 +27,6 @@ app.layout = dbc.Container([
         children=[
             dbc.NavItem(dbc.NavLink("Home", href="/")),
             dbc.NavItem(dbc.NavLink("Products", href="/products")),
-            dbc.NavItem(dbc.NavLink("Users", href="/users")),
             dbc.NavItem(dbc.NavLink("Transactions", href="/transactions")),
         ],
         className="mb-4"

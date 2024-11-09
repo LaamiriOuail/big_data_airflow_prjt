@@ -169,13 +169,33 @@ def get_best_sold_products(reverse=1):
     return top_best_sold_products
 
 
+def get_data_with_transaction_counts():
+    db = connect_to_mongodb()
+
+    # Retrieve data from MongoDB collections
+    transactions = pd.DataFrame(list(db['transactions'].find({}, {'user_id': 1, 'product_id': 1, 'amount': 1, 'transaction_date': 1})))
+
+    # Convert transaction_date from Unix timestamp if necessary
+    if pd.api.types.is_integer_dtype(transactions['transaction_date']):
+        transactions['transaction_date'] = pd.to_datetime(transactions['transaction_date'], unit='ms')
+
+    # Extract year and month from transaction date
+    transactions['year'] = transactions['transaction_date'].dt.year
+    transactions['month'] = transactions['transaction_date'].dt.month
+
+    # Group transactions by year and month, and count the number of transactions
+    transaction_counts = transactions.groupby(['year', 'month']).size().reset_index(name='transaction_count')
+
+    return transaction_counts
+
 
 # # Example usage
 # top_products = get_best_sold_products()
 # print(top_products)
 
+# data = get_data_with_transaction_counts()
 
-
+# print(data)
 
 
 
