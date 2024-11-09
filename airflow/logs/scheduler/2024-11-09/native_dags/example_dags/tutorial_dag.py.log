@@ -1014,3 +1014,73 @@
 [2024-11-09T10:06:27.296+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:27.295+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:06:27.785+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:27.784+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-11-09T10:06:27.878+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.730 seconds
+[2024-11-09T10:07:37.249+0100] {processor.py:186} INFO - Started process (PID=145294) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:07:37.260+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:07:37.268+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:37.266+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:07:37.296+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:07:37.348+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:37.347+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:07:37.395+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:37.394+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:07:37.469+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.261 seconds
+[2024-11-09T10:08:38.414+0100] {processor.py:186} INFO - Started process (PID=146084) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:08:38.425+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:08:38.437+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:38.435+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:08:38.470+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:08:38.531+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:38.530+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:08:38.991+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:38.989+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:08:39.064+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.689 seconds
+[2024-11-09T10:09:50.713+0100] {processor.py:186} INFO - Started process (PID=146979) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:09:50.722+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:09:50.727+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:50.726+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:09:50.745+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:09:50.785+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:50.784+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:09:50.825+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:50.824+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:09:50.885+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.653 seconds
+[2024-11-09T10:10:53.877+0100] {processor.py:186} INFO - Started process (PID=147782) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:10:53.888+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:10:53.895+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:53.894+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:10:53.923+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:10:53.975+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:53.974+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:10:54.026+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:54.025+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:10:54.097+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.258 seconds
+[2024-11-09T10:11:46.916+0100] {processor.py:186} INFO - Started process (PID=148368) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:11:46.927+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:11:46.935+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:46.934+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:11:46.974+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:11:47.065+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:47.064+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:11:47.136+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:47.135+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:11:47.235+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.365 seconds
+[2024-11-09T10:12:42.972+0100] {processor.py:186} INFO - Started process (PID=149069) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:12:42.984+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:12:42.992+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:42.991+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:12:43.026+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:12:43.088+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:43.087+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:12:43.149+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:43.147+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:12:43.249+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.321 seconds
+[2024-11-09T10:13:39.735+0100] {processor.py:186} INFO - Started process (PID=149764) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:13:39.746+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:13:39.754+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:39.753+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:13:39.782+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:13:39.836+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:39.835+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:13:39.883+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:39.883+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:13:39.960+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.263 seconds
+[2024-11-09T10:14:34.629+0100] {processor.py:186} INFO - Started process (PID=150416) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:14:34.632+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:14:34.640+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:34.639+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:14:34.670+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:14:34.729+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:34.728+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:14:34.785+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:34.784+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:14:34.863+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.271 seconds
+[2024-11-09T10:15:26.720+0100] {processor.py:186} INFO - Started process (PID=151041) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:15:26.731+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:15:26.739+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:26.737+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:15:26.767+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:15:26.823+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:26.822+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:15:26.880+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:26.879+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:15:26.971+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.289 seconds
+[2024-11-09T10:16:18.920+0100] {processor.py:186} INFO - Started process (PID=151699) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:16:18.923+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-09T10:16:18.931+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:18.930+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:16:18.959+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-09T10:16:19.012+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:19.011+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:16:19.065+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:19.063+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-09T10:16:19.155+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.277 seconds

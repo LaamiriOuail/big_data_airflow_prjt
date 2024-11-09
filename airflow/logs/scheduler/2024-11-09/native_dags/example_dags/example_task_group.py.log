@@ -559,3 +559,45 @@
 [2024-11-09T10:06:45.667+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:45.666+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:06:46.095+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:46.094+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
 [2024-11-09T10:06:46.164+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.641 seconds
+[2024-11-09T10:07:50.954+0100] {processor.py:186} INFO - Started process (PID=145544) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:07:50.958+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:07:50.966+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:50.965+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:07:51.002+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:07:51.064+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:51.063+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:07:51.110+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:51.109+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:07:51.182+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.284 seconds
+[2024-11-09T10:08:55.824+0100] {processor.py:186} INFO - Started process (PID=146359) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:08:55.835+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:08:55.842+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:55.841+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:08:55.874+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:08:55.950+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:55.948+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:08:56.365+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:56.364+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:08:56.431+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.644 seconds
+[2024-11-09T10:10:08.946+0100] {processor.py:186} INFO - Started process (PID=147224) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:10:08.949+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:10:08.956+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:08.955+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:10:08.990+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:10:09.058+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:09.057+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:10:09.114+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:09.113+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:10:09.199+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.291 seconds
+[2024-11-09T10:11:55.645+0100] {processor.py:186} INFO - Started process (PID=148465) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:11:55.655+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:11:55.661+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:55.660+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:11:55.694+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:11:55.761+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:55.760+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:11:55.806+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:55.806+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:11:55.884+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.276 seconds
+[2024-11-09T10:12:56.684+0100] {processor.py:186} INFO - Started process (PID=149254) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:12:56.695+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:12:56.704+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:56.703+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:12:56.743+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:12:56.807+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:56.806+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:12:56.869+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:56.868+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:12:56.944+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.308 seconds
+[2024-11-09T10:14:45.824+0100] {processor.py:186} INFO - Started process (PID=150549) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:14:45.836+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-09T10:14:45.844+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:45.843+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:14:45.881+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-09T10:14:45.939+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:45.938+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:14:45.990+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:45.989+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-09T10:14:46.076+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.299 seconds

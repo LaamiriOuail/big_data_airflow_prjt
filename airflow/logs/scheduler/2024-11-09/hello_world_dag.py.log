@@ -1021,3 +1021,73 @@
 [2024-11-09T10:06:11.941+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:11.941+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:06:12.360+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:12.359+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
 [2024-11-09T10:06:12.425+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.626 seconds
+[2024-11-09T10:07:24.952+0100] {processor.py:186} INFO - Started process (PID=145105) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:07:24.956+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:07:24.963+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:24.962+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:07:24.992+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:07:25.380+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:25.379+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:07:25.448+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:25.448+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:07:25.500+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.582 seconds
+[2024-11-09T10:08:25.403+0100] {processor.py:186} INFO - Started process (PID=145947) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:08:25.414+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:08:25.425+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:25.423+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:08:25.472+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:08:25.542+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:25.541+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:08:26.001+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:26.000+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:08:26.069+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.704 seconds
+[2024-11-09T10:09:33.857+0100] {processor.py:186} INFO - Started process (PID=146799) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:09:33.868+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:09:34.249+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:34.248+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:09:34.272+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:09:34.309+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:34.308+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:09:34.390+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:34.389+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:09:34.469+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.655 seconds
+[2024-11-09T10:10:41.709+0100] {processor.py:186} INFO - Started process (PID=147604) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:10:41.713+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:10:41.721+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:41.720+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:10:41.756+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:10:41.810+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:41.809+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:10:41.904+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:41.903+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:10:42.003+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.335 seconds
+[2024-11-09T10:11:34.201+0100] {processor.py:186} INFO - Started process (PID=148237) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:11:34.212+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:11:34.220+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:34.219+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:11:34.252+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:11:34.303+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:34.302+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:11:34.384+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:34.383+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:11:34.457+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.298 seconds
+[2024-11-09T10:12:30.120+0100] {processor.py:186} INFO - Started process (PID=148904) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:12:30.131+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:12:30.137+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:30.136+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:12:30.164+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:12:30.213+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:30.212+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:12:30.303+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:30.302+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:12:30.377+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.293 seconds
+[2024-11-09T10:13:26.208+0100] {processor.py:186} INFO - Started process (PID=149601) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:13:26.220+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:13:26.231+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:26.229+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:13:26.273+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:13:26.341+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:26.341+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:13:26.458+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:26.457+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:13:26.532+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.397 seconds
+[2024-11-09T10:14:22.486+0100] {processor.py:186} INFO - Started process (PID=150268) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:14:22.498+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:14:22.506+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:22.505+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:14:22.543+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:14:22.603+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:22.602+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:14:22.714+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:22.713+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:14:22.789+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.346 seconds
+[2024-11-09T10:15:15.090+0100] {processor.py:186} INFO - Started process (PID=150900) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:15:15.093+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:15:15.102+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:15.100+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:15:15.134+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:15:15.183+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:15.182+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:15:15.260+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:15.259+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:15:15.339+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.289 seconds
+[2024-11-09T10:16:06.743+0100] {processor.py:186} INFO - Started process (PID=151525) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:16:06.754+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-11-09T10:16:06.762+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:06.760+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:16:06.794+0100] {processor.py:925} INFO - DAG(s) 'hello_world_dag' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py
+[2024-11-09T10:16:06.844+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:06.844+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:16:06.928+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:06.927+0100] {dag.py:4180} INFO - Setting next_dagrun for hello_world_dag to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:16:07.004+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/hello_world_dag.py took 0.302 seconds

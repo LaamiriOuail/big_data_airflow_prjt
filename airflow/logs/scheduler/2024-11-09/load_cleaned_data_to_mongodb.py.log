@@ -1021,3 +1021,73 @@
 [2024-11-09T10:06:10.480+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:10.479+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:06:10.540+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:10.539+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
 [2024-11-09T10:06:10.599+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.818 seconds
+[2024-11-09T10:07:23.670+0100] {processor.py:186} INFO - Started process (PID=145086) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:07:23.673+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:07:23.684+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:23.682+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:07:24.255+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:07:24.287+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:24.286+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:07:24.350+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:07:24.349+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:07:24.401+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.771 seconds
+[2024-11-09T10:08:23.387+0100] {processor.py:186} INFO - Started process (PID=145903) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:08:23.398+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:08:23.406+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:23.405+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:08:24.006+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:08:24.041+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:24.040+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:08:24.102+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:08:24.101+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:08:24.155+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.805 seconds
+[2024-11-09T10:09:31.705+0100] {processor.py:186} INFO - Started process (PID=146776) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:09:31.709+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:09:32.124+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:32.122+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:09:32.419+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:09:32.469+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:32.466+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:09:32.574+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:32.573+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:09:32.641+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.976 seconds
+[2024-11-09T10:10:39.867+0100] {processor.py:186} INFO - Started process (PID=147586) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:10:39.879+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:10:39.889+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:39.887+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:10:40.184+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:10:40.252+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:40.251+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:10:40.337+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:10:40.336+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:10:40.410+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.603 seconds
+[2024-11-09T10:11:32.480+0100] {processor.py:186} INFO - Started process (PID=148216) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:11:32.491+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:11:32.499+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:32.497+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:11:32.738+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:11:32.788+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:32.787+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:11:32.868+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:32.868+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:11:32.937+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.496 seconds
+[2024-11-09T10:12:28.901+0100] {processor.py:186} INFO - Started process (PID=148846) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:12:28.912+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:12:28.923+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:28.921+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:12:29.210+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:12:29.263+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:29.262+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:12:29.360+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:12:29.359+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:12:29.447+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.593 seconds
+[2024-11-09T10:13:24.364+0100] {processor.py:186} INFO - Started process (PID=149574) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:13:24.375+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:13:24.383+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:24.381+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:13:24.629+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:13:24.680+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:24.679+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:13:24.762+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:24.761+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:13:24.844+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.518 seconds
+[2024-11-09T10:14:20.723+0100] {processor.py:186} INFO - Started process (PID=150243) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:14:20.734+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:14:20.742+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:20.740+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:14:20.995+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:14:21.052+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:21.050+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:14:21.135+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:21.134+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:14:21.221+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.543 seconds
+[2024-11-09T10:15:13.271+0100] {processor.py:186} INFO - Started process (PID=150874) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:15:13.282+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:15:13.291+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:13.289+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:15:13.595+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:15:13.656+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:13.655+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:15:13.756+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:13.755+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:15:13.838+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.610 seconds
+[2024-11-09T10:16:04.967+0100] {processor.py:186} INFO - Started process (PID=151504) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:16:04.978+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py for tasks to queue
+[2024-11-09T10:16:04.987+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:04.985+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:16:05.245+0100] {processor.py:925} INFO - DAG(s) 'load_cleaned_data_to_mongodb' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py
+[2024-11-09T10:16:05.313+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:05.312+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:16:05.414+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:05.413+0100] {dag.py:4180} INFO - Setting next_dagrun for load_cleaned_data_to_mongodb to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:16:05.498+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/load_cleaned_data_to_mongodb.py took 0.574 seconds

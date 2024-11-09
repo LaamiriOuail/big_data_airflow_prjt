@@ -517,3 +517,31 @@
 [2024-11-09T10:06:57.509+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:57.508+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:06:57.954+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:06:57.953+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
 [2024-11-09T10:06:58.025+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.663 seconds
+[2024-11-09T10:09:05.123+0100] {processor.py:186} INFO - Started process (PID=146451) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:09:05.135+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-11-09T10:09:05.144+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:05.142+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:09:05.172+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:09:05.221+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:05.220+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:09:05.649+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:09:05.648+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-11-09T10:09:05.722+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.638 seconds
+[2024-11-09T10:11:10.518+0100] {processor.py:186} INFO - Started process (PID=147961) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:11:10.530+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-11-09T10:11:10.537+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:10.536+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:11:10.568+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:11:10.617+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:10.616+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:11:10.663+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:11:10.662+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-11-09T10:11:10.734+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.256 seconds
+[2024-11-09T10:13:03.774+0100] {processor.py:186} INFO - Started process (PID=149347) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:13:03.784+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-11-09T10:13:03.794+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:03.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:13:03.827+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:13:03.874+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:03.873+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:13:03.921+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:13:03.920+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-11-09T10:13:03.999+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.266 seconds
+[2024-11-09T10:14:52.545+0100] {processor.py:186} INFO - Started process (PID=150624) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:14:52.556+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-11-09T10:14:52.566+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:52.565+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:14:52.601+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-11-09T10:14:52.661+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:52.660+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:14:52.718+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:14:52.718+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-11-09T10:14:52.809+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.312 seconds

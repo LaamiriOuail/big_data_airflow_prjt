@@ -73,9 +73,17 @@ $ docker exec -it postgres-olap-store psql -U airflow -d olap-store -f /init.sql
     - `/restore/olap-store` points to the backup folder inside the container.
 
 After running these commands, the `olap-store` database should be restored in your MongoDB container.
+   ## Visualisation with Streamlit
+To launch the visualisation interface with Streamlit, use the following command:
+1. Navigate to the project directory:
+```bash
+    $ cd UI
+    ```
+2. Run the Streamlit app:
+```bash
+    $ streamlit run main.py
 
-
-
+    ```
 
 
 
