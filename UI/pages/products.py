@@ -60,7 +60,12 @@ layout = html.Div([
     # New Graphs for top/bottom products and categories
     dbc.Row([
         dbc.Col(dcc.Graph(id='top-products-2023', style={'height': '350px', 'backgroundColor': '#333'}), width=6),
-        dbc.Col(dcc.Graph(id='top-categories-2023', style={'height': '350px', 'backgroundColor': '#333'}), width=6),
+        dbc.Col(dcc.Graph(id='least-products-2023', style={'height': '350px', 'backgroundColor': '#333'}), width=6),
+    ]),
+
+    # New Graphs for top/bottom products and categories
+    dbc.Row([
+        dbc.Col(dcc.Graph(id='top-categories-2023', style={'height': '350px', 'backgroundColor': '#333'}), width=12),
     ]),
 ])
 
@@ -70,6 +75,7 @@ layout = html.Div([
     Output('sales-by-category', 'figure'),
     Output('sales-by-location', 'figure'),
     Output('top-products-2023', 'figure'),
+    Output('least-products-2023', 'figure'),
     Output('top-categories-2023', 'figure'),
     Input('year-dropdown', 'value'),
     Input('category-dropdown', 'value'),
@@ -90,12 +96,12 @@ def update_graphs(selected_years, selected_categories):
     fig_location = px.bar(sales_location, x='city', y='total_sales', title="Sales by Location")
     
     # Fetch top-selling products and categories for 2023/2024
-    best_sold_products = get_best_sold_products()
-    top_10_products = best_sold_products.head(10)
-    least_10_products = best_sold_products.tail(10)
+    top_10_products = get_best_sold_products(1)
+    least_10_products = get_best_sold_products(-1)
 
     # Create figure for top 10 products in 2023/2024
     fig_top_products = px.bar(top_10_products, x='product_name', y='total_sales', title="Top 10 Products (2023/2024)")
+    fig_least_products = px.bar(least_10_products, x='product_name', y='total_sales', title="Least 10 Products (2023/2024)")
     
     # Create figure for top 10 categories in 2023/2024
     top_categories = sales_category.groupby('category')['total_sales'].sum().reset_index()
@@ -107,6 +113,7 @@ def update_graphs(selected_years, selected_categories):
     fig_location.update_layout(template="plotly_dark")
     fig_category.update_layout(template="plotly_dark")
     fig_top_products.update_layout(template="plotly_dark")
+    fig_least_products.update_layout(template="plotly_dark")
     fig_top_categories.update_layout(template="plotly_dark")
 
     # Customize the color for better comparison
@@ -116,7 +123,7 @@ def update_graphs(selected_years, selected_categories):
     fig_top_products.update_traces(marker_color='orange')
     fig_top_categories.update_traces(marker_color='yellowgreen')
 
-    return fig_year, fig_category, fig_location, fig_top_products, fig_top_categories
+    return fig_year, fig_category, fig_location, fig_top_products, fig_least_products, fig_top_categories
 
 
 

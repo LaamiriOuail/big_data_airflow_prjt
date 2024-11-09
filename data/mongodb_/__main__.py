@@ -149,21 +149,21 @@ def sales_by_selected_year_month_location(years=None, months=None, locations=Non
     return sales
 
 
-def get_best_sold_products():
+def get_best_sold_products(reverse=1):
     df = get_data()  # Assuming this function returns the sales data
+    
     # Aggregate sales by year, month, and product_id
     best_sold_products = df.groupby(['year', 'month', 'product_id', 'product_name'])['amount'].sum().reset_index(name='total_sales')
 
-    # Sort the data by total_sales in descending order
-    best_sold_products_sorted = best_sold_products.sort_values(by='total_sales', ascending=False)
+    # Sort the data by total_sales. Reverse sorting based on the 'reverse' parameter
+    ascending_order = False if reverse == 1 else True
+    best_sold_products_sorted = best_sold_products.sort_values(by='total_sales', ascending=ascending_order)
 
     # Get the top-selling products by month and year (rank products within each month/year)
-    best_sold_products_sorted['rank'] = best_sold_products_sorted.groupby(['year', 'month'])['total_sales'].rank(method='first', ascending=False)
-    # Optionally, return the top-selling product of each month and year
+    best_sold_products_sorted['rank'] = best_sold_products_sorted.groupby(['year', 'month'])['total_sales'].rank(method='first', ascending=False if reverse == 1 else True)
+
+    # Optionally, return the top-selling or least-selling product of each month and year
     top_best_sold_products = best_sold_products_sorted[best_sold_products_sorted['rank'] == 1]
-
-
-
 
     # Return the final dataframe with product names
     return top_best_sold_products
