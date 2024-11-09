@@ -638,3 +638,11 @@
 [2024-11-09T10:15:44.698+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:44.697+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:15:44.758+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:44.757+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
 [2024-11-09T10:15:44.839+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.304 seconds
+[2024-11-09T10:17:30.159+0100] {processor.py:186} INFO - Started process (PID=152623) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-11-09T10:17:30.170+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-11-09T10:17:30.179+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:30.177+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-11-09T10:17:30.219+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:30.219+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-09T10:17:30.229+0100] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-11-09T10:17:30.297+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:30.296+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:30.355+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:30.354+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-11-09T10:17:30.436+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.320 seconds

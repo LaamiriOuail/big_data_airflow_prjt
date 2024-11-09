@@ -559,3 +559,10 @@
 [2024-11-09T10:15:51.537+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:51.536+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:15:51.628+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:51.627+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-11-09 04:00:00+00:00, run_after=2024-11-09 08:00:00+00:00
 [2024-11-09T10:15:51.722+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.340 seconds
+[2024-11-09T10:17:38.261+0100] {processor.py:186} INFO - Started process (PID=152726) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-11-09T10:17:38.275+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-11-09T10:17:38.291+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:38.289+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-11-09T10:17:38.351+0100] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-11-09T10:17:38.455+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:38.453+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:38.568+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:38.567+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-11-09 04:00:00+00:00, run_after=2024-11-09 08:00:00+00:00
+[2024-11-09T10:17:38.651+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.449 seconds

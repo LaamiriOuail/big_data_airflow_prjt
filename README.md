@@ -76,16 +76,16 @@ After running these commands, the `olap-store` database should be restored in yo
    ## Visualisation with Streamlit
 To launch the visualisation interface with Streamlit, use the following command:
 1. Navigate to the project directory:
-```bash
+    ```bash
     $ cd UI
+
     ```
 2. Run the Streamlit app:
+
 ```bash
-    $ streamlit run main.py
+    $ $ streamlit run main.py
+
 
     ```
-
-
-
 
 

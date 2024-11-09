@@ -383,3 +383,13 @@
 [2024-11-09T10:15:03.717+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:03.715+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-11-09T10:15:03.731+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-11-09T10:15:03.771+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.127 seconds
+[2024-11-09T10:16:47.439+0100] {processor.py:186} INFO - Started process (PID=152167) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:16:47.442+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-11-09T10:16:47.450+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:47.449+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:16:47.463+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:16:47.497+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.100 seconds
+[2024-11-09T10:18:35.042+0100] {processor.py:186} INFO - Started process (PID=153436) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:18:35.053+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-11-09T10:18:35.062+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:35.060+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:18:35.076+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-11-09T10:18:35.112+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.117 seconds

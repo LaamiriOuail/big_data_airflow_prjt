@@ -646,3 +646,11 @@
 [2024-11-09T10:15:59.637+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:59.636+0100] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
 [2024-11-09T10:15:59.655+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:59.654+0100] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
 [2024-11-09T10:15:59.718+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.353 seconds
+[2024-11-09T10:17:46.273+0100] {processor.py:186} INFO - Started process (PID=152813) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2024-11-09T10:17:46.285+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2024-11-09T10:17:46.293+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:46.291+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2024-11-09T10:17:46.341+0100] {processor.py:925} INFO - DAG(s) 'read_dataset_event_from_classic', 'read_dataset_event' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2024-11-09T10:17:46.403+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:46.402+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-11-09T10:17:46.491+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:46.490+0100] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:17:46.510+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:46.509+0100] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:17:46.579+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.363 seconds

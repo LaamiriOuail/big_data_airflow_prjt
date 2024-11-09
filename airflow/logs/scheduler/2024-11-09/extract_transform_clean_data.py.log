@@ -1098,3 +1098,24 @@
 [2024-11-09T10:16:04.259+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:04.258+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:16:04.367+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:04.366+0100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
 [2024-11-09T10:16:04.436+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py took 0.360 seconds
+[2024-11-09T10:16:55.747+0100] {processor.py:186} INFO - Started process (PID=152260) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:16:55.750+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-09T10:16:55.758+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:55.757+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:16:55.802+0100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:16:55.900+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:55.899+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:16:55.994+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:55.993+0100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:16:56.063+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py took 0.359 seconds
+[2024-11-09T10:17:50.273+0100] {processor.py:186} INFO - Started process (PID=152861) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:17:50.284+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-09T10:17:50.291+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:50.290+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:17:50.330+0100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:17:50.401+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:50.400+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:50.487+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:50.486+0100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:17:50.574+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py took 0.358 seconds
+[2024-11-09T10:18:43.175+0100] {processor.py:186} INFO - Started process (PID=153543) to work on /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:18:43.188+0100] {processor.py:914} INFO - Processing file /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py for tasks to queue
+[2024-11-09T10:18:43.197+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:43.196+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:18:43.237+0100] {processor.py:925} INFO - DAG(s) 'extract_transform_clean_data' retrieved from /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py
+[2024-11-09T10:18:43.295+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:43.295+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:18:43.380+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:43.380+0100] {dag.py:4180} INFO - Setting next_dagrun for extract_transform_clean_data to 2024-11-08 00:00:00+00:00, run_after=2024-11-09 00:00:00+00:00
+[2024-11-09T10:18:43.457+0100] {processor.py:208} INFO - Processing /home/hajar/big_data_airflow_prjt/airflow/dags/extract_transform_clean_data.py took 0.326 seconds

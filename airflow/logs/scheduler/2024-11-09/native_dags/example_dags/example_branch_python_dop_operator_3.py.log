@@ -545,3 +545,17 @@
 [2024-11-09T10:15:01.478+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:01.477+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:15:01.566+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:01.566+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-11-09 09:14:00+00:00, run_after=2024-11-09 09:15:00+00:00
 [2024-11-09T10:15:01.648+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.317 seconds
+[2024-11-09T10:16:44.578+0100] {processor.py:186} INFO - Started process (PID=152130) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:16:44.581+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2024-11-09T10:16:44.589+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:44.587+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:16:44.630+0100] {processor.py:925} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:16:44.686+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:44.685+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:16:44.794+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:44.793+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-11-09 09:15:00+00:00, run_after=2024-11-09 09:16:00+00:00
+[2024-11-09T10:16:44.874+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.337 seconds
+[2024-11-09T10:18:33.044+0100] {processor.py:186} INFO - Started process (PID=153403) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:18:33.055+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2024-11-09T10:18:33.063+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:33.062+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:18:33.109+0100] {processor.py:925} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-09T10:18:33.172+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:33.171+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:18:33.270+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:18:33.269+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-11-09 09:17:00+00:00, run_after=2024-11-09 09:18:00+00:00
+[2024-11-09T10:18:33.340+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.345 seconds

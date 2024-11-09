@@ -559,3 +559,10 @@
 [2024-11-09T10:16:02.651+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:02.650+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:16:02.714+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:16:02.713+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to None, run_after=None
 [2024-11-09T10:16:02.798+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.309 seconds
+[2024-11-09T10:17:49.314+0100] {processor.py:186} INFO - Started process (PID=152853) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2024-11-09T10:17:49.325+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py for tasks to queue
+[2024-11-09T10:17:49.334+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:49.332+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2024-11-09T10:17:49.367+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping_with_no_taskflow_operators' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2024-11-09T10:17:49.417+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:49.416+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:49.465+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:49.465+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to None, run_after=None
+[2024-11-09T10:17:49.536+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.266 seconds

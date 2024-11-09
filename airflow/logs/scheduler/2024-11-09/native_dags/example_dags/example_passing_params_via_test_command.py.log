@@ -559,3 +559,10 @@
 [2024-11-09T10:15:46.240+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:46.239+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:15:46.343+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:46.343+0100] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2024-11-09 09:14:00+00:00, run_after=2024-11-09 09:15:00+00:00
 [2024-11-09T10:15:46.418+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.338 seconds
+[2024-11-09T10:17:31.690+0100] {processor.py:186} INFO - Started process (PID=152650) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-11-09T10:17:31.702+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2024-11-09T10:17:31.711+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:31.709+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-11-09T10:17:31.757+0100] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2024-11-09T10:17:31.820+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:31.819+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:31.919+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:31.918+0100] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2024-11-09 09:16:00+00:00, run_after=2024-11-09 09:17:00+00:00
+[2024-11-09T10:17:31.990+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.343 seconds

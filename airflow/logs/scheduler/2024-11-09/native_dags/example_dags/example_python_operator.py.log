@@ -638,3 +638,11 @@
 [2024-11-09T10:15:43.137+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:43.136+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-09T10:15:43.198+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:15:43.197+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2024-11-09T10:15:43.285+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.319 seconds
+[2024-11-09T10:17:28.569+0100] {processor.py:186} INFO - Started process (PID=152620) to work on /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-11-09T10:17:28.579+0100] {processor.py:914} INFO - Processing file /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-11-09T10:17:28.589+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:28.587+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-11-09T10:17:28.625+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:28.624+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-09T10:17:28.636+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-11-09T10:17:28.716+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:28.715+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T10:17:28.793+0100] {logging_mixin.py:190} INFO - [2024-11-09T10:17:28.791+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-11-09T10:17:28.896+0100] {processor.py:208} INFO - Processing /home/hajar/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.368 seconds
