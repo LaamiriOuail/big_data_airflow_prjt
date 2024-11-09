@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-export AIRFLOW_HOME=/home/ouaillaamiri/Development/lsi_3/airflow/airflow
+export AIRFLOW_HOME=/home/hajar/big_data_airflow_prjt/airflow
 # Initialize the Airflow database
 echo "Initializing the Airflow database..."
 airflow db migrate
