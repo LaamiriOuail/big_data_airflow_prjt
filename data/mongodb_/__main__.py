@@ -80,7 +80,7 @@ def get_data():
 
     # Retrieve data from MongoDB collections
     transactions = pd.DataFrame(list(db['transactions'].find({}, {'user_id': 1, 'product_id': 1, 'amount': 1, 'transaction_date': 1})))
-    products = pd.DataFrame(list(db['products'].find({}, {'product_id': 1, 'category': 1})))
+    products = pd.DataFrame(list(db['products'].find({}, {'product_id': 1, 'category': 1, 'product_name': 1})))
     users = pd.DataFrame(list(db['users'].find({}, {'user_id': 1, 'city': 1})))
 
     # Convert transaction_date from Unix timestamp if necessary
@@ -117,6 +117,8 @@ def sales_by_category():
     sales_by_category = df.groupby('category')['amount'].sum().reset_index(name='total_sales')
     return sales_by_category
 
+
+
 # Function to analyze sales by location (city)
 def sales_by_location():
     df = get_data()
@@ -145,5 +147,35 @@ def sales_by_selected_year_month_location(years=None, months=None, locations=Non
     sales = df.groupby(['year', 'month', 'city'])['amount'].sum().reset_index(name='total_sales')
 
     return sales
+
+
+def get_best_sold_products():
+    df = get_data()  # Assuming this function returns the sales data
+    # Aggregate sales by year, month, and product_id
+    best_sold_products = df.groupby(['year', 'month', 'product_id', 'product_name'])['amount'].sum().reset_index(name='total_sales')
+
+    # Sort the data by total_sales in descending order
+    best_sold_products_sorted = best_sold_products.sort_values(by='total_sales', ascending=False)
+
+    # Get the top-selling products by month and year (rank products within each month/year)
+    best_sold_products_sorted['rank'] = best_sold_products_sorted.groupby(['year', 'month'])['total_sales'].rank(method='first', ascending=False)
+    # Optionally, return the top-selling product of each month and year
+    top_best_sold_products = best_sold_products_sorted[best_sold_products_sorted['rank'] == 1]
+
+
+
+
+    # Return the final dataframe with product names
+    return top_best_sold_products
+
+
+
+# # Example usage
+# top_products = get_best_sold_products()
+# print(top_products)
+
+
+
+
 
 
